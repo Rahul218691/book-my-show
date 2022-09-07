@@ -1,0 +1,44 @@
+.navbar__sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav__container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchInput {
+    width: 50%;
+}
+
+.searchInput .input-group-text {
+    background-color: #fff;
+}
+
+.sm_screen_search {
+    display: none;
+}
+
+@media (max-width: 768px){
+    .searchInput {
+        display: none;
+    }
+    .lg_screen_signIn {
+        display: none;
+    }
+    .sm_screen_search {
+        display: inline-block;
+    }
+    .brandImage img {
+        width: 100px;
+    }
+}
