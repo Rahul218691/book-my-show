@@ -28,6 +28,10 @@
     display: none;
 }
 
+.caratIcon {
+    margin-left: 5px;
+}
+
 @media (max-width: 768px){
     .searchInput {
         display: none;
