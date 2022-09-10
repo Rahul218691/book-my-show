@@ -11,3 +11,44 @@
     cursor: pointer;
     margin-right: 30px;
 }
+
+.drawer{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 60px;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.drawer .closeIcon{
+    float: right;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.drawer .drawerHeader {
+    padding: 0.5rem;
+}
+
+.drawer .horizontal__line {
+    color: #fff;
+    margin-top: 0;
+}
+
+.drawer .drawerFooter {
+    position: fixed;
+    bottom: 10px;
+    padding: 0.5rem;
+    color: #fff;
+    right: 100px;
+}
+
+.drawer .drawerFooter span{
+    margin: 5px;
+    cursor: pointer;
+}
