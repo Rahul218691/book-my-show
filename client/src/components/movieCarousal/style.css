@@ -1,0 +1,28 @@
+.product__slider {
+    width: 100%;
+    overflow: hidden;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.product__slider img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product__slider h5 {
+    text-align: center;
+}
+
+.product__slider p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 768px){ 
+    .product__slider img {
+        height: 300px;
+        object-fit: contain;
+    }
+}
